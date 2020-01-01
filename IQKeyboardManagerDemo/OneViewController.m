@@ -26,7 +26,7 @@
  **/
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, self.view.bounds.size.height - 100, self.view.bounds.size.width - 40, 40)];
+    UITextField *tf = [[UITextField alloc] initWithFrame:CGRectMake(20, self.view.bounds.size.height - 140, self.view.bounds.size.width - 40, 40)];
     tf.backgroundColor = [UIColor lightGrayColor];
     tf.placeholder = @"this is a test";
     [self.view addSubview:tf];
